@@ -1,0 +1,41 @@
+{
+  "kind": "build_request",
+  "title": "Remove BIS Hallmarked and Certified Purity mentions from website",
+  "projectName": "Shrigram Poonam Jewels",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-5",
+      "text": "Remove all mentions of 'BIS Hallmarked', 'BIS hallmark', 'Certified Purity', and 'certified purity' from every section of the website, including the About Us section (stat highlights and descriptive text), the WhyChooseUs section (feature grid items), the Products section (feature highlights), and any other component where these phrases appear.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-4"
+        ],
+        "quotes": [
+          "Remove Bis hallmarked and certified purety from website"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The About Us section contains no mention of 'BIS hallmark', 'BIS Hallmarked', 'Certified Purity', or any variation thereof.",
+        "The WhyChooseUs section feature grid contains no item referencing 'BIS hallmark' or 'certified purity'.",
+        "The Products section descriptions and feature highlights contain no mention of 'BIS hallmark' or 'certified purity'.",
+        "No other section, card, badge, or tooltip on the site references 'BIS hallmark' or 'certified purity'.",
+        "All removed mentions are replaced by omission (removed entirely) without leaving blank or broken UI elements."
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not alter any backend logic or data schema.",
+    "Do not modify immutable frontend paths: frontend/src/hooks/useInternetIdentity.ts, frontend/src/hooks/useActor.ts, frontend/src/main.tsx, frontend/src/components/ui."
+  ],
+  "nonGoals": [
+    "Adding new content or replacing the removed text with alternative claims.",
+    "Changing the overall visual theme or layout.",
+    "Modifying the wholesale inquiry form or backend."
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

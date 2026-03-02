@@ -1,0 +1,24 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-remove-all-mentions-of-bis-hallmarked-bis-hallmark-certified-purity-and-certified-purity-from-every-section-of-the-website-including-the-about-us-section-stat-highlights-and-descriptive-text-the-whychooseus-section-feature-grid-items-the-products-section-feature-highlights-and-any-other-component-where-these-phrases-appear",
+      "featureTitle": "Remove all mentions of 'BIS Hallmarked', 'BIS hallmark', 'Certified Purity', and 'certified purity' from every section of the website, including the About Us section (stat highlights and descriptive text), the WhyChooseUs section (feature grid items), the Products section (feature highlights), and any other component where these phrases appear.",
+      "files": [
+        "frontend/src/components/AboutUs.tsx",
+        "frontend/src/components/WhyChooseUs.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-5"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

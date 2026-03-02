@@ -1,0 +1,22 @@
+{
+  "backend/main.mo": "Motoko actor that defines an Inquiry type and exposes two functions: submitInquiry to store a new inquiry with a timestamp, and getInquiries to return all stored inquiries as an array.",
+  "feature_evidence.json": "Feature evidence report confirming that all mentions of 'BIS Hallmarked', 'BIS hallmark', 'Certified Purity', and 'certified purity' were removed from AboutUs.tsx and WhyChooseUs.tsx.",
+  "frontend-file-summaries.txt": "JSON document containing one-sentence summaries for each frontend source file, describing the purpose and key content of every component, hook, and config file in the project.",
+  "frontend/index.css": "Base Tailwind CSS entry file that defines OKLCH-based CSS custom properties for light and dark color themes, including background, foreground, card, border, and chart color tokens.",
+  "frontend/index.html": "HTML entry point for the Shrigram/Poonam Jewels app, setting the page title and mounting the React app via a root div and main.tsx module script.",
+  "frontend/src/App.tsx": "Root React component that composes the full single-page layout by rendering Navigation, Hero, AboutUs, Products, WhyChooseUs, WholesaleInquiry, and Footer in order.",
+  "frontend/src/components/AboutUs.tsx": "About Us section presenting Poonam Jewels' heritage in Jamnagar with descriptive text, a decorative charcoal card with the Shrigram logo, and stat highlights for gold jewellery types and retail/wholesale — BIS Hallmarked and Certified Purity references removed.",
+  "frontend/src/components/Footer.tsx": "Dark charcoal footer with the Shrigram logo, brand slogan, quick navigation links with smooth-scroll, contact details, copyright notice, and a caffeine.ai attribution link.",
+  "frontend/src/components/Hero.tsx": "Full-screen hero section featuring a background banner image with overlays, animated brand name and slogan, ornamental dividers, and CTA buttons that scroll to the Products and Wholesale Inquiry sections.",
+  "frontend/src/components/Navigation.tsx": "Fixed top navigation bar with the Shrigram logo, desktop anchor links, scroll-aware background transition, and a responsive mobile hamburger menu with smooth-scroll behavior.",
+  "frontend/src/components/Products.tsx": "Renders a 'Our Collections' section displaying 1 gram and 2 gram gold jewellery product cards with images, descriptions, highlights, and badges.",
+  "frontend/src/components/WholesaleInquiry.tsx": "Renders a wholesale inquiry section with contact info and a form that submits name, phone, city, and message via the useSubmitInquiry mutation hook.",
+  "frontend/src/components/WhyChooseUs.tsx": "Renders a 'Why Choose Shrigram?' section displaying a grid of six feature cards (purity, pricing, variety, trust, retail/wholesale, supply) on a dark charcoal background.",
+  "frontend/src/hooks/useActor.ts": "Custom hook that creates and caches an ICP backend actor (authenticated or anonymous) using React Query, and invalidates dependent queries when the identity changes.",
+  "frontend/src/hooks/useInternetIdentity.ts": "Provides an InternetIdentityProvider and useInternetIdentity hook for managing ICP Internet Identity authentication state, including login, logout, and identity persistence via AuthClient.",
+  "frontend/src/hooks/useQueries.ts": "Exports the useSubmitInquiry mutation hook that calls the backend actor's submitInquiry method and invalidates the inquiries query cache on success.",
+  "frontend/src/index.css": "Global stylesheet that imports Google Fonts, defines Tailwind base/component/utility layers, sets CSS custom properties for the gold/ivory/charcoal design tokens, and declares utility classes for gradients and typography.",
+  "frontend/src/main.tsx": "Application entry point that mounts the React app wrapped with QueryClientProvider and InternetIdentityProvider into the DOM root.",
+  "frontend/tailwind.config.js": "Tailwind CSS configuration for the frontend, extending the default theme with custom colors (gold, charcoal, ivory, brand tokens), fonts (Playfair Display, Cormorant Garamond, Jost), shadows, keyframes, and plugins (typography, container-queries, animate).",
+  "project_state.json": "Project state file tracking the version, summary, architectural notes, known issues, and implemented features for the Shrigram by Poonam Jewels website, including homepage sections, visual theme, and content requirements."
+}

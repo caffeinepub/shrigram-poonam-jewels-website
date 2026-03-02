@@ -1,0 +1,78 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "Website for Shrigram by Poonam Jewels — a retailer and wholesaler of 1 & 2 gram gold jewellery based in Jamnagar, Gujarat. The site should be universal and unique, featuring a suggested brand slogan.",
+  "architectural_notes": [
+    "Brand name: Shrigram | Company name: Poonam Jewels | Location: Jamnagar, Gujarat",
+    "Business type: Retail & wholesale of 1 gram and 2 gram gold jewellery",
+    "Website tone: Premium, trustworthy, culturally rich, universally appealing"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-display-a-unique-universal-brand-slogan-for-shrigram-poonam-jewels-prominently-on-the-homepage-hero-section-use-the-slogan-pure-gold-timeless-grace-conveying-purity-elegance-and-trust-for-1-2-gram-gold-jewellery",
+      "title": "Display a unique, universal brand slogan for Shrigram / Poonam Jewels prominently on the homepage hero section. Use the slogan: \"Pure Gold. Timeless Grace.\" — conveying purity, elegance, and trust for 1 & 2 gram gold jewellery.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-multi-section-homepage-for-shrigram-poonam-jewels-with-the-following-sections-1-hero-brand-name-slogan-and-a-strong-visual-2-about-us-brief-intro-about-poonam-jewels-as-a-retailer-and-wholesaler-of-1-2-gram-gold-jewellery-based-in-jamnagar-gujarat-3-products-showcase-of-1-gram-and-2-gram-gold-jewellery-categories-with-sample-cards-4-why-choose-us-highlights-such-as-purity-guarantee-wholesale-pricing-wide-variety-and-trusted-brand-5-wholesale-inquiry-a-simple-contact-inquiry-form-for-wholesale-buyers-with-fields-for-name-phone-city-and-message-6-footer-brand-name-company-name-location-jamnagar-gujarat-and-copyright",
+      "title": "Build a multi-section homepage for Shrigram (Poonam Jewels) with the following sections: (1) Hero — brand name, slogan, and a strong visual; (2) About Us — brief intro about Poonam Jewels as a retailer and wholesaler of 1 & 2 gram gold jewellery based in Jamnagar, Gujarat; (3) Products — showcase of 1 gram and 2 gram gold jewellery categories with sample cards; (4) Why Choose Us — highlights such as purity guarantee, wholesale pricing, wide variety, and trusted brand; (5) Wholesale Inquiry — a simple contact/inquiry form for wholesale buyers with fields for Name, Phone, City, and Message; (6) Footer — brand name, company name, location (Jamnagar, Gujarat), and copyright.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-a-luxurious-regal-visual-theme-inspired-by-gold-jewellery-craftsmanship-use-a-rich-warm-gold-c9a84c-or-similar-and-deep-charcoal-black-1a1a1a-as-primary-palette-with-ivory-cream-faf5e4-for-backgrounds-use-an-elegant-serif-font-for-headings-and-a-clean-sans-serif-for-body-text-the-layout-should-feel-premium-and-trustworthy-with-subtle-gold-shimmer-or-gradient-accents-ornamental-dividers-and-generous-whitespace",
+      "title": "Apply a luxurious, regal visual theme inspired by gold jewellery craftsmanship. Use a rich warm gold (#C9A84C or similar) and deep charcoal/black (#1A1A1A) as primary palette, with ivory/cream (#FAF5E4) for backgrounds. Use an elegant serif font for headings and a clean sans-serif for body text. The layout should feel premium and trustworthy, with subtle gold shimmer or gradient accents, ornamental dividers, and generous whitespace.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-remove-all-mentions-of-bis-hallmarked-bis-hallmark-certified-purity-and-certified-purity-from-every-section-of-the-website-including-the-about-us-section-stat-highlights-and-descriptive-text-the-whychooseus-section-feature-grid-items-the-products-section-feature-highlights-and-any-other-component-where-these-phrases-appear",
+      "title": "Remove all mentions of 'BIS Hallmarked', 'BIS hallmark', 'Certified Purity', and 'certified purity' from every section of the website, including the About Us section (stat highlights and descriptive text), the WhyChooseUs section (feature grid items), the Products section (feature highlights), and any other component where these phrases appear.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Suggest a universal and unique slogan for Shrigram / Poonam Jewels",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Build a complete website for Shrigram (Poonam Jewels) showcasing 1 & 2 gram gold jewellery retail and wholesale offerings",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Store wholesale inquiry form submissions in the backend. Each submission should record: name (Text), phone (Text), city (Text), message (Text), and timestamp (Int). Expose a function to submit an inquiry and a query to retrieve all inquiries.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Remove 'BIS Hallmarked' and 'Certified Purity' mentions from the website",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Shrigram – Poonam Jewels Website",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

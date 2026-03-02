@@ -1,0 +1,42 @@
+{
+  "kind": "coverage_report",
+  "version": "1.0",
+  "generatedAt": "2026-03-02T19:44:50.919Z",
+  "sources": {
+    "buildRequest": true,
+    "implementationPlan": true
+  },
+  "requirements": {
+    "total": 1,
+    "implemented": 1,
+    "items": [
+      {
+        "id": "REQ-5",
+        "summary": "Remove all mentions of 'BIS Hallmarked', 'BIS hallmark', 'Certified Purity', and 'certified purity' from every section of the website, including the About Us section (stat highlights and descriptive text), the WhyChooseUs section (feature grid items), the Products section (feature highlights), and any other component where these phrases appear.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/AboutUs.tsx",
+          "frontend/src/components/WhyChooseUs.tsx",
+          "frontend/src/components/Products.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/AboutUs.tsx",
+          "frontend/src/components/WhyChooseUs.tsx"
+        ]
+      }
+    ]
+  },
+  "changedFiles": [
+    "build-request.json",
+    "build-template/README.md",
+    "feature_evidence.json",
+    "frontend-file-summaries.txt",
+    "frontend-implementation-plan.json",
+    "frontend/src/components/AboutUs.tsx",
+    "frontend/src/components/WhyChooseUs.tsx",
+    "project_state.json",
+    "scratch/component-selection.json",
+    "spec.md",
+    "spec_vs_diff_report.json"
+  ]
+}

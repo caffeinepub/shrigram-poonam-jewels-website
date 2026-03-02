@@ -1,0 +1,35 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Remove BIS Hallmarked and Certified Purity mentions from website",
+  "requirements": [
+    {
+      "id": "REQ-5",
+      "summary": "Remove all mentions of 'BIS Hallmarked', 'BIS hallmark', 'Certified Purity', and 'certified purity' from every section of the website",
+      "acceptanceCriteria": [
+        "The About Us section contains no mention of 'BIS hallmark', 'BIS Hallmarked', 'Certified Purity', or any variation thereof.",
+        "The WhyChooseUs section feature grid contains no item referencing 'BIS hallmark' or 'certified purity'.",
+        "The Products section descriptions and feature highlights contain no mention of 'BIS hallmark' or 'certified purity'.",
+        "No other section, card, badge, or tooltip on the site references 'BIS hallmark' or 'certified purity'.",
+        "All removed mentions are replaced by omission (removed entirely) without leaving blank or broken UI elements."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/AboutUs.tsx",
+          "operation": "modify",
+          "description": "Remove all references to 'BIS hallmark', 'BIS Hallmarked', 'Certified Purity', and 'certified purity' from the stat highlights array and any descriptive text. Ensure the layout remains balanced and no empty stat cards are rendered."
+        },
+        {
+          "path": "frontend/src/components/WhyChooseUs.tsx",
+          "operation": "modify",
+          "description": "Remove any feature grid items that mention 'BIS hallmark', 'BIS Hallmarked', 'Certified Purity', or 'certified purity'. Adjust the grid to display remaining features without breaking the responsive layout or leaving gaps."
+        },
+        {
+          "path": "frontend/src/components/Products.tsx",
+          "operation": "modify",
+          "description": "Remove all mentions of 'BIS hallmark', 'BIS Hallmarked', 'Certified Purity', and 'certified purity' from product card descriptions and feature highlights. Ensure the product cards remain visually consistent and no placeholder text is left behind."
+        }
+      ]
+    }
+  ]
+}
